@@ -1,4 +1,6 @@
 import { connectToMongoDB } from "./config/DB.config.js";
+import { config } from "dotenv";
+config(); 
 connectToMongoDB();
 
 
